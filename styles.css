@@ -3,6 +3,12 @@ body {
     flex-direction: column;
 }
 
+/*Overarching desing*/
+
+.container1, .container2, .container3 {
+    height: 350px;
+}
+
 /* Header design */
 
 .header {
@@ -96,7 +102,7 @@ img {
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 30px;
     padding-top: 16px;
     padding-bottom: 70px;
 }
@@ -119,4 +125,21 @@ img {
 .container2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB; 
+    padding: 0px 100px;
+}
+
+#quote {
+    font-size: 36px; 
+    color: #1F2937; 
+    font-style: italic;
+    font-weight: 100;
+}
+
+.source {
+    align-self: flex-end;
+    font-weight: 900;
+    padding-top: 16px;
+    font-size: 18px;
 }
