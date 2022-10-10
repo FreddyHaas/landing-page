@@ -9,51 +9,109 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #eeeeee;
-    padding: 8px;
+    background-color: #1F2937;
+    padding: 0px 16px;
+    color: white;
+    font-weight: bold;
+    flex: 0 0 auto;
+    height: auto;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 8px;
+.header.headerlogo {
+    text-align: left;
+    padding-left: 0px;
 }
+
+.header ul {
+    list-style-type: none;
+    align-items: flex-end;
+    display: flex;
+    gap: 16px;
+    font-weight: normal;
+    flex: 0 0 auto;
+}
+
 
 /* Design first container */
 
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    font-weight: bold;
+    padding: 42px 16px;
+    margin: 0;
+}
+
+.container .text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
 }
 
 img {
-    width: 300px;
-    margin: 8px;
+    flex: 0 0 auto;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 60px;
 }
 
 .title {
     flex: 0 0 auto;
-    width: 300px;
-    padding: 8px;
+    width: 400px;
+    font-size: 48px;
+    font-weight: 900; 
+    color: #F9FAF8;
+}
+
+.button {
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+    padding: 6px;
+    border-radius: 8px;
+    margin-top: 16px;
 }
 
 /* Design second container */
+
+.container1 {
+    padding-top: 16px;
+}
 
 .title1 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
     gap: 16px;
+    padding-top: 16px;
+    padding-bottom: 70px;
 }
 
+#image {
+    height: 140px;
+    width: 140px;
+    border: #3882F6 solid;
+    border-width: 3px;
+    border-radius: 15px;
+    margin-bottom: 3px;
+}
 .text1 {
-    width: 200px;
+    width: 140px;
+    text-align: center;
 }
 
 /* Design third container */
