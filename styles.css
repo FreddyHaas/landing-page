@@ -143,3 +143,43 @@ img {
     padding-top: 16px;
     font-size: 18px;
 }
+
+/* Design fourth container */
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bluebox {
+    background: #3882F6;
+    border-radius: 8px;
+    width: 900px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.title3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text3 {
+    font-weight: 100;
+}
+
+.button3 {
+    border: white solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
